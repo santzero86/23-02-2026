@@ -1,0 +1,7 @@
+--- INICIO DEL EXPERIMENTO DE CAPACIDAD ---
+Tamaño a reservar: 15 MB
+
+[HEAP] Intentando reservar arreglo en Heap (Punteros)...
+[HEAP] Éxito. Dirección de memoria base: 0x769e458bd010
+[HEAP] Memoria liberada.
+Segmentation fault (core dumped)
