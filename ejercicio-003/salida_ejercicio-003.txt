@@ -3,6 +3,6 @@ Tiempo por PUNTERO (Ref):  0.000179 segundos
 
 CONCLUSIÓN: Usar punteros fue 2304.41x veces más rápido.
 
-Es mucho más eficiente pasar valores por referencia por el hecho de que no tenemos que crear un copia del dato, si no que nada más copiamos en 
-la cache una dirección que nos lleva al dato que necesitamos, ahorrandonos la necesidad de leer montones y montones de bytes que pertenecen 
-al dato original.
+Es mucho más eficiente usar punteros por el hecho de que no tenemos que crear un copia del dato, 
+si no que nada más pasamos una dirección que nos lleva al dato que necesitamos, ahorrándonos el 
+tráfico de memoria y la necesidad de copiar en el stack montones de bytes que equivalen al dato original.
